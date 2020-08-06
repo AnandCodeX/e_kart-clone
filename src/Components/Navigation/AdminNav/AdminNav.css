@@ -16,6 +16,7 @@
 }
 
 .adminItemNav a,
+.adminItemNav button,
 .adminNav a {
   border: 2px solid rgb(255, 95, 3);
   border-radius: 10px;
@@ -45,11 +46,13 @@ img {
   color: rgb(0, 0, 0);
 }
 
-.logincart a {
+.logincart a,
+.logincart button {
   height: 34px;
   padding: 0 15px;
   color: rgb(0, 0, 0);
   text-decoration: unset;
+  background-color: rgb(250, 128, 14);
 }
 
 /* Search bar CSS */

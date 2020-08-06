@@ -1,7 +1,6 @@
 import React from "react";
 import "./Login.css";
 import MainNav from "../../Navigation/MainNav/MainNav";
-import Admin from "../../Pages/Admin/Admin";
 import { NavLink } from "react-router-dom";
 
 const SignUp = () => {

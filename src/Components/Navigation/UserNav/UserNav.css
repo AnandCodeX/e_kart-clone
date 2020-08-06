@@ -159,6 +159,9 @@ form.search-form {
   font-size: 16px;
   padding: 5px 15px;
   border-radius: 0px;
+  color: rgb(77, 77, 77);
+  font-weight: bold;
+  font-family: Georgia;
   border: unset;
   height: 30px;
   margin: 0px;

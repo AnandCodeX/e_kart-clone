@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import Home from "../../../Images/Home.png";
 import "./AdminNav.css";
 
-const AdminItemNav = () => {
+const AdminItemNav = (props) => {
   return (
     <div className="adminItemNav">
       <div className="logo">
@@ -34,9 +34,9 @@ const AdminItemNav = () => {
       </div>
 
       <div className="logincart">
-        <NavLink to="/admin/adminitems/adminadditems">
+        <button onClick={props.addItemClicked} type="button">
           <span className="loginBttn">Add Items</span>
-        </NavLink>
+        </button>
         <NavLink to="/admin/adminusers">
           <span>Users</span>
         </NavLink>
