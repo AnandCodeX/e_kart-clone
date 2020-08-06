@@ -1,11 +1,10 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import MainNav from "../../Navigation/MainNav/MainNav";
 
 const Main = () => {
   return (
     <div>
-      <NavLink to="/login">Login</NavLink>
-      
+      <MainNav />
     </div>
   );
 };

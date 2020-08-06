@@ -3,8 +3,11 @@ import "./App.css";
 import Display from "./Display";
 
 const App = () => {
-  return( <Display />)
- 
+  return (
+    <div className="app">
+      <Display />
+    </div>
+  );
 };
 
 export default App;

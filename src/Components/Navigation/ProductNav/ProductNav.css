@@ -1,0 +1,103 @@
+.productNav div {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ProductNavBar {
+  width: 100vw;
+  height: 35px;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(218, 216, 216);
+  border-radius: 0px 2px 4px grey;
+}
+
+.navCol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-width: 100vw;
+}
+
+.productNav div .Prod_Drop_Tag {
+  width: 12vw;
+  height: 45px;
+  z-index: 1;
+}
+
+.productNav div .Prod_Drop_Tag button {
+  border: unset;
+  cursor: pointer;
+  font-size: 1rem;
+  color: rgb(95, 95, 95);
+  font-weight: bold;
+  font-family: "Segoe UI";
+  box-shadow: 0 1px 2px grey;
+  border-radius: 2px;
+  padding: 4px 5px;
+  margin: 2.5px;
+  width: 12vw;
+}
+
+.productNav div .Prod_Drop_Tag button:hover,
+.productNav div .Prod_Drop_Tag:hover button {
+  background-color: purple;
+  color: white;
+}
+
+.productNav div .Prod_Dis_Tag {
+  display: none;
+  width: 80vw;
+  height: auto;
+  /* background-color: rgb(219, 219, 219); */
+}
+.productNav div .Prod_Drop_Tag:hover .Prod_Dis_Tag {
+  display: block;
+}
+
+.productNav div .productDropbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 90vw;
+  margin: 0 5vw;
+  left: 0;
+  min-width: auto;
+  box-shadow: 0 2px 4px gray;
+  background-color: rgb(211, 211, 211);
+}
+
+.productNav div .Prod_DBox_Col {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  padding: 5px;
+}
+
+.productNav div .Prod_DBox_Col a {
+  width: auto;
+  margin: 2px;
+  color: rgb(95, 95, 95);
+  font-weight: bold;
+  font-family: monospace;
+  padding: 5px 20px;
+  background: linear-gradient(
+    to right,
+    rgb(211, 211, 211),
+    rgb(255, 255, 255),
+    rgb(211, 211, 211)
+  );
+  text-align: center;
+  text-decoration: unset;
+}
+
+.productNav div .Prod_DBox_Col a:hover {
+  color: rgb(3, 0, 161);
+  background: linear-gradient(
+    to right,
+    rgb(211, 211, 211),
+    rgb(113, 210, 255),
+    rgb(211, 211, 211)
+  );
+}
