@@ -42,6 +42,7 @@
 .productNav div .Prod_Drop_Tag:hover button {
   background-color: purple;
   color: white;
+  box-shadow: 5px 0 10px rgb(97, 96, 96), -5px 0 10px rgb(97, 96, 96);
 }
 
 .productNav div .Prod_Dis_Tag {

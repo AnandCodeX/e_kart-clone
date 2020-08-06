@@ -26,7 +26,7 @@ const UserNav = () => {
               title=""
             />
           </label>
-          <input
+          <input 
             type="submit"
             className="search-submit search_button"
             value="Search"

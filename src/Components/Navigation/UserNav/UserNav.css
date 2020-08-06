@@ -144,7 +144,7 @@ form.search-form {
 
 /* ----------------------------------User Dropdown Menu ---------------*/
 
-.userDropmenuBtn .userDropmenu {
+.userNav .logincart .userDropmenuBtn .userDropmenu {
   display: none;
   position: absolute;
   background-color: rgb(252, 251, 250);
@@ -154,11 +154,12 @@ form.search-form {
   z-index: 1;
 }
 
-.userDropmenuBtn .userDropmenu a {
+.userNav .logincart .userDropmenuBtn .userDropmenu a {
   min-width: 100px;
   font-size: 16px;
   padding: 5px 15px;
   border-radius: 0px;
+  background-color: rgb(252, 251, 250);
   color: rgb(77, 77, 77);
   font-weight: bold;
   font-family: Georgia;
@@ -166,17 +167,17 @@ form.search-form {
   height: 30px;
   margin: 0px;
 }
-.userDropmenuBtn .userDropmenu a:hover {
+.userNav .logincart .userDropmenuBtn .userDropmenu a:hover {
   background-color: rgb(250, 128, 14);
   color: rgb(253, 251, 251);
 }
 
-.userDropmenuBtn:hover .userDropmenu {
+.userNav .logincart .userDropmenuBtn:hover .userDropmenu {
   display: flex;
   flex-direction: column;
 }
 
-.userDropmenuBtn .homeIcon {
+.userNav .logincart .userDropmenuBtn .homeIcon {
   position: relative;
   top: 2.5px;
   padding: 0px 0px 5px;
